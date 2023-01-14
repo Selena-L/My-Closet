@@ -1,8 +1,9 @@
 import React, {useState, useCallback} from 'react';
 import {Collapse} from './Collapse.js';
+import {Accessible2} from './Accessible2';
 
 export function Accessible() {
-  const height = 100;
+  const height = 5;
 
   const accessibilityIds = {
     checkbox: 'accessible-marker-example1',
@@ -47,24 +48,27 @@ export function Accessible() {
         </li> */}
 
         <li>
-          <div>
-            <h6>With a button</h6>
+          <div class="py-8">
             <div className="config">
-              <button
+              <center><button
+                class="bg-white hover:bg-gray-100 text-black border border-gray-400 font-bold py-2 px-4 rounded-full"
                 aria-controls={accessibilityIds.button}
                 aria-expanded={isButtonCollapseOpen}
                 onClick={onClick}
                 type="button">
-                Reveal content
-              </button>
+                Pick an Outfit
+              </button></center>
             </div>
             <Collapse
               isOpened={isButtonCollapseOpen}>
               <div style={{height}} id={accessibilityIds.button} className="blob" />
-              <img
-                className='w-full h-full object-cover'
+              <center><img
+                className='w-2/6 h-2/6 object-cover'
                 src='https://aritzia.scene7.com/is/image/Aritzia/f22_07_a06_79143_19862_on_e?wid=1800'
-                alt='' />
+                alt='' /></center>
+              <div class="py-8">
+                <Accessible2 />
+              </div>
             </Collapse>
           </div>
         </li>
