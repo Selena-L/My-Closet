@@ -36,6 +36,8 @@ function App() {
         alt='' />
       <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 pl-8">My Closet</h1>
 
+      <h1 class="font-medium leading-tight text-5xl mt-0 mb-2 pl-8">My Closet</h1>
+
       <div class="flex flex-col space-y-6 ...">
         <div>
           <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 pl-8">Top</h1>
