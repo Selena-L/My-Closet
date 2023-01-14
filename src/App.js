@@ -39,10 +39,21 @@ function App() {
       </div>
 
     </><section className="section">
-        <h2>Recommendation</h2>
+        <h2>Pick an outfit</h2>
         <Accessible />
-      </section></>
+        
+        </section>
+
+        
+        
+        
+  
+    <section2 className="section2">
+    <h2>Recommendation</h2>
+    <Accessible />
+    </section2></>
   )
+  
 }
 
 export default App;

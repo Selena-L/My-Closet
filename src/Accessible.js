@@ -61,6 +61,10 @@ export function Accessible() {
             <Collapse
               isOpened={isButtonCollapseOpen}>
               <div style={{height}} id={accessibilityIds.button} className="blob" />
+              <img
+                className='w-full h-full object-cover'
+                src='https://aritzia.scene7.com/is/image/Aritzia/f22_07_a06_79143_19862_on_e?wid=1800'
+                alt='' />
             </Collapse>
           </div>
         </li>
