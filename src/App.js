@@ -3,18 +3,29 @@ import {Accessible2} from './Accessible2';
 
 
 import React from 'react';
-import { data } from './mockData';
+import { data_tops } from './data_tops';
+import { data_bottom } from './data_bottom';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
 function App() {
-  const slideLeft = () => {
-    var slider = document.getElementById('slider');
-    slider.scrollLeft = slider.scrollLeft - 500;
+  const slideLeft_tops = () => {
+    var slider_tops = document.getElementById('slider_tops');
+    slider_tops.scrollLeft = slider_tops.scrollLeft - 500;
   };
 
-  const slideRight = () => {
-    var slider = document.getElementById('slider');
-    slider.scrollLeft = slider.scrollLeft + 500;
+  const slideRight_tops = () => {
+    var slider_tops = document.getElementById('slider_tops');
+    slider_tops.scrollLeft = slider_tops.scrollLeft + 500;
+  };
+
+  const slideLeft_bottom = () => {
+    var slider_bottom = document.getElementById('slider_bottom');
+    slider_bottom.scrollLeft = slider_bottom.scrollLeft - 500;
+  };
+
+  const slideRight_bottom = () => {
+    var slider_bottom = document.getElementById('slider_bottom');
+    slider_bottom.scrollLeft = slider_bottom.scrollLeft + 500;
   };
 
   return (
@@ -28,39 +39,40 @@ function App() {
         <div>
           <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 pl-8">Top</h1>
             <div className='relative flex items-center'>
-              <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
+              <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft_tops} size={40} />
               <div
-                id='slider'
+                id='slider_tops'
                 className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
               >
-                {data.map((item) => (
+                {data_tops.map((item) => (
                   <img
                     className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
                     src={item.img}
                     alt='/' />
                 ))}
               </div>
-              <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
+              <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight_tops} size={40} />
             </div>
         </div>
-        {/* <div>
-          <h1 align="center">Bottom</h1>
+        
+        <div>
+        <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 pl-8">Bottom</h1>
             <div className='relative flex items-center'>
-              <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
+              <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft_bottom} size={40} />
               <div
                 id='slider'
                 className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
               >
-                {data.map((item) => (
+                {data_bottom.map((item) => (
                   <img
                     className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
                     src={item.img}
                     alt='/' />
                 ))}
               </div>
-              <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
+              <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight_bottom} size={40} />
             </div>
-        </div> */}
+        </div>
       </div>  
 
 
