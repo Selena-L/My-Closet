@@ -1,4 +1,6 @@
 import {Accessible} from './Accessible';
+import {Accessible2} from './Accessible2';
+
 
 import React from 'react';
 import { data } from './mockData';
@@ -50,7 +52,7 @@ function App() {
   
     <section2 className="section2">
     <h2>Recommendation</h2>
-    <Accessible />
+    <Accessible2 />
     </section2></>
   )
   
