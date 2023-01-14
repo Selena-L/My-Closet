@@ -20,25 +20,51 @@ function App() {
   return (
     <><>
       <img
-        className='w-full h-[440px] object-cover'
+        className='w-2/6 h-2/6 object-cover'
         src='https://download.logo.wine/logo/Aritzia/Aritzia-Logo.wine.png'
         alt='' />
-      <h1>My Closet</h1>
-      <div className='relative flex items-center'>
-        <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
-        <div
-          id='slider'
-          className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
-        >
-          {data.map((item) => (
-            <img
-              className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
-              src={item.img}
-              alt='/' />
-          ))}
+
+      <div class="flex flex-col space-y-6 ...">
+        <div>
+          <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 pl-8">Top</h1>
+            <div className='relative flex items-center'>
+              <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
+              <div
+                id='slider'
+                className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
+              >
+                {data.map((item) => (
+                  <img
+                    className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
+                    src={item.img}
+                    alt='/' />
+                ))}
+              </div>
+              <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
+            </div>
         </div>
-        <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
-      </div>
+        {/* <div>
+          <h1 align="center">Bottom</h1>
+            <div className='relative flex items-center'>
+              <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
+              <div
+                id='slider'
+                className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
+              >
+                {data.map((item) => (
+                  <img
+                    className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
+                    src={item.img}
+                    alt='/' />
+                ))}
+              </div>
+              <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight} size={40} />
+            </div>
+        </div> */}
+      </div>  
+
+
+
 
     </><section className="section">
         <h2>Pick an outfit</h2>
