@@ -2,8 +2,39 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-top1 {
+  height: 200px;
+  width: 200px;
+  pointer-events: none;
+}
+
+.App-top2 {
+  height: 200px;
+  width: 200px;
+  pointer-events: none;
+}
+
+.App-top3 {
+  height: 200px;
+  width: 200px;
+  pointer-events: none;
+}
+
+.App-bottom3 {
+  height: 200px;
+  width: 200px;
+  pointer-events: none;
+}
+
+.App-bottom1 {
+  height: 200px;
+  width: 200px;
+  pointer-events: none;
+}
+
+.App-bottom2 {
+  height: 200px;
+  width: 200px;
   pointer-events: none;
 }
 
