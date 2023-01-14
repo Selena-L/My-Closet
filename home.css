@@ -1,0 +1,98 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto;
+}
+
+.shipping-bar {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: black;
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo-utility-bar {
+  display: grid;
+  grid-template-columns: 1fr 50px 50px 50px 50px 70px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+  margin-left: 30px;
+}
+
+.logo-image {
+  width: 240px;
+}
+
+.navigation-tabs {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-tab {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.navigation-link {
+  color: black;
+  text-decoration: none;
+}
+
+.navigation-link:hover {
+  text-decoration: underline;
+}
+
+.deeper-markdowns-panel {
+  margin-top: 15px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.deeper-markdowns-image-block {
+  align-items: top;
+  margin-right: 59px;
+}
+
+.deeper-markdowns-link {
+  color: rgba(0,0,0,.87);
+  text-decoration: none;
+}
+
+.deeper-markdowns-text {
+  text-align: top;
+  font-size: 60px;
+}
+
+.winter-sale-text {
+  margin-top: 80px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.select-styles-text {
+  margin-top: 110px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.shop-sale-text {
+  margin-top: 30px;
+  color: rgba(0,0,0,.87);
+  text-decoration: underline;
+  font-size: 16px;
+  text-align: left;
+}
