@@ -20,12 +20,12 @@ function App() {
         <img src={bottom2} className="App-bottom2" alt="bottom2" />
         <img src={bottom3} className="App-bottom3" alt="bottom3" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        My Clothes
         </p>
-          My Clothes
+          
       </header>
       <section className="section">
-        <h2>Accessible examples</h2>
+        <h2>Recommendation</h2>
         <Accessible />
     </section>
     </div>
