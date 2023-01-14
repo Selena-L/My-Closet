@@ -34,6 +34,7 @@ function App() {
         className='w-2/6 h-2/6 object-cover'
         src='https://download.logo.wine/logo/Aritzia/Aritzia-Logo.wine.png'
         alt='' />
+      <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 pl-8">My Closet</h1>
 
       <div class="flex flex-col space-y-6 ...">
         <div>
