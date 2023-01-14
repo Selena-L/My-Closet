@@ -4,7 +4,10 @@ import top3 from './top3.png';
 import bottom1 from './bottom1.png';
 import bottom2 from './bottom2.png';
 import bottom3 from './bottom3.png';
+import {Accessible} from './Accessible';
+
 import './App.css';
+
 
 function App() {
   return (
@@ -21,6 +24,10 @@ function App() {
         </p>
           My Clothes
       </header>
+      <section className="section">
+        <h2>Accessible examples</h2>
+        <Accessible />
+    </section>
     </div>
   );
 }
