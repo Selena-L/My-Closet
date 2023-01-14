@@ -60,7 +60,7 @@ export function Accessible2() {
         </li> */}
 
         <li>
-          <div>
+          <div class="py-8">
             <div className="config">
               <center><button
                 class="bg-white hover:bg-gray-100 text-black border border-gray-400 font-bold py-2 px-4 rounded-full"
@@ -68,7 +68,7 @@ export function Accessible2() {
                 aria-expanded={isButtonCollapseOpen}
                 onClick={onClick}
                 type="button">
-                Recommendation
+                Recommendations
               </button></center>
             </div>
             <div class="pt-6">

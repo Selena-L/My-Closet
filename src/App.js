@@ -54,8 +54,9 @@ function App() {
               <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideRight_tops} size={40} />
             </div>
         </div>
-        {/* <div>
-          <h1 align="center">Bottom</h1>
+        
+        <div>
+        <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 pl-8">Bottom</h1>
             <div className='relative flex items-center'>
               <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft_bottom} size={40} />
               <div
@@ -76,10 +77,8 @@ function App() {
 
 
 
-    
-    </>
-    <div class="my-8">
-    <section className="section py-6">
+
+    </><section className="section">
         <Accessible />
         
         </section>
@@ -88,10 +87,6 @@ function App() {
         
         
   
-    {/* <section2 className="section2 py-6">
-    <Accessible2 />
-    </section2> */}
-    </div>
     </>
   )
   

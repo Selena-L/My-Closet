@@ -1,24 +1,24 @@
 export const data_bottom = [
-    // {
-    //   id: 1,
-    //   img: 'https://aritzia.scene7.com/is/image/Aritzia/hi-res/s23_04_a04_101467_11420_off_a.jpg',
-    // },
+    {
+      id: 1,
+      img: 'https://aritzia.scene7.com/is/image/Aritzia/f22_01_a06_99356_18891_off_a?wid=1200',
+    },
     {
       id: 2,
-      img: 'https://aritzia.scene7.com/is/image/Aritzia/hi-res/s23_01_a06_81775_27638_off_b.jpg',
+      img: 'https://aritzia.scene7.com/is/image/Aritzia/f22_02_a07_97885_27374_off_a?wid=1200',
     },
-    // {
-    //   id: 3,
-    //   img: 'https://aritzia.scene7.com/is/image/Aritzia/f22_00_a01_104277_1274_off_b?wid=1800',
-    // },
-    // {
-    //   id: 4,
-    //   img: 'https://aritzia.scene7.com/is/image/Aritzia/f22_01_a01_81266_27359_off_a?wid=900',
-    // },
-    // {
-    //   id: 5,
-    //   img: 'https://aritzia.scene7.com/is/image/Aritzia/s22_07_a01_77656_1275_off_a?wid=900',
-    // },
+    {
+      id: 3,
+      img: 'https://aritzia.scene7.com/is/image/Aritzia/f22_03_a06_109935_19451_off_a?wid=1200',
+    },
+    {
+      id: 4,
+      img: 'https://aritzia.scene7.com/is/image/Aritzia/f22_04_a07_61851_28707_off_a?wid=1200',
+    },
+    {
+      id: 5,
+      img: 'https://aritzia.scene7.com/is/image/Aritzia/large/s23_01_a06_81775_27638_off_a.jpg',
+    },
     {
       id: 6,
       img: 'https://aritzia.scene7.com/is/image/Aritzia/f22_07_a06_79143_19862_off_a?wid=1800',

@@ -48,7 +48,7 @@ export function Accessible() {
         </li> */}
 
         <li>
-          <div>
+          <div class="py-8">
             <div className="config">
               <center><button
                 class="bg-white hover:bg-gray-100 text-black border border-gray-400 font-bold py-2 px-4 rounded-full"
